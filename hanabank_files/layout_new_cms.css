@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+#container.memberMain {background-color:#fff;}
+#container.memberMain #contents{width:900px !important;margin: 0 -130px 0 0px !important;padding-bottom: 100px;}
+#container.goldMain #contents {width:900px !important;margin: 0 -130px 0 0px !important;padding-bottom: 100px;}
+#container.memberMain .visualMenu {width:900px;background: #fcfcfb url(https://image.kebhana.com/cont/common/img/member/bg_gray.jpg) no-repeat 0 40px;}
+.hana-body #wrap .pageSet {top:90px;}
+div.custConsult h4,div.custConsult  h5.tabTit {margin-top:40px;}
+h3 + .contImg {clear:both;}
+#container.customerMain #contents {margin-top:0;}
+.customerMain {background-position: right 60px top -100px;background-size: 870px 874px;}
+#container.missing {background:none;}
+.etcRate {background: url(https://image.kebhana.com/cont/common/img/background/bg-f5f5f2.png) right top no-repeat;background-size: 930px 100%;}
+#container.mallMain #contents > h3,
+#container.saveMain #contents > h3,
+#container.loanMain #contents > h3,
+#container.fundMain #contents > h3,
+#container.fundSub #contents > h3,
+#container.insurMain #contents > h3,
+#container.etcRate #contents > h3{text-align: center;margin-bottom: 0;height: 77px;padding-top: 30px;font-size: 50px;line-height: 50px;border-bottom: 0;font-family: 'Notosans_Regular';}
+
+
+/* important */
+#container.missing {background:none;}
+
+
+/* happyknowhow */
+.knowhow #contents.hana-contents .imgHappyKnowTitle {
+	margin: 0px 0 40px 0;
+	padding: 0;
+	border-bottom:0;
+}
+.tabHappy li:first-child {
+    margin-left: 260px;
+}
+
+
+/* 타이틀 css */
+#contents.hana-contents .pageTitle {margin-bottom: 30px !important;}
+
+#container.memberMain #contents {width: 800px !important;margin-left: 70px !important;padding-bottom: 0 !important;}
+#container.memberMain .visualMenu {width: 800px !important;background:none !important;height: 785px;}
+.memberMain {background:none !important;}
+.visualMenu li {left: -50px;top: -90px;}
+
+#container.goldMain #contents {width: 800px !important;margin-left: 70px !important;padding-bottom: 0 !important;}
+#container.goldMain #contents .article .art-bg {margin-top:-50px;}
+#container.goldMain #contents .article {width: 800px !important;overflow: hidden;}
+#container.goldMain #contents .article.main02 {width: 850px !important;margin-left: -50px;}
+#container.goldMain #contents .article img {width: 100% !important;}
+.article.main01 .scrollEvent {bottom: 340px;}
+.article.main02 .goldList .inherit {right: 18px;}
+.article.main02 .goldList .life {right: 180px;}
+
+#container.goldMain .goldMenuWrap {margin-top: 70px;padding: 0;}
+#container.goldMain .goldMenuWrap .goldLogo {left: 45px;}
+#container.goldMain .goldMenuWrap .goldMenu {padding: 0 0 0 165px;border-bottom:0;}
+
+#container.customerMain #contents {width: 800px !important;margin-left: 70px !important;padding-bottom: 0 !important;}
+.customerMain {background:none;}
+.custSubmain {background: url(https://image.kebhana.com/cont/common/img/customer/bg_customer.gif) no-repeat 0 0;background-position: -55px -80px;}
+.custGreeting01 {margin:0;padding-top: 80px;}
+#container.memberMain .tipList {top: 420px;left: 300px;}
+.visualMenu li {left: inherit;top: inherit;}
+.visualMenu > li {left: -50px;top: -90px;}
+
+/* 20190514 신규페이지 추가 */
+.new_contents{position: relative;font-family: NotoSans_Regular;}
+.new_contents .txt_title{margin:56px 0 15px;font-size: 19px;color:#062926;letter-spacing:-0.05px;}
+.new_contents .txt_contP{font-size: 15px;color:#637079;line-height: 24px;}
+.new_contents .txt_green{color: #27b2a5;}
+.new_contents .cont_explain dt{font-size: 19px;color:#062926;font-weight: bold;letter-spacing:-0.05px;}
+.new_contents .cont_explain dd{padding-top:15px;font-size: 15px;color:#637079;line-height: 24px;}
+.new_contents .ccm_cont{position: relative;}
+.new_contents .ccm_cont::after{display: block;content: '';position: absolute;top: 25px;right: 45px;width: 90px;height: 90px;background: url(https://image.kebhana.com/cont/common/img/customer/ccm_logo.png) no-repeat;}
+.new_contents .operation_list::after{display:block;content:'';clear: both;}
+.new_contents .operation_list li{float: left;width: 50%;box-sizing: border-box;padding-right: 10px;font-size:15px;color: #637079;}
+.new_contents .operation_list li:nth-child(2n){padding-left:10px;padding-right: 0;}
+.new_contents .operation_list li .listImage{margin-top:15px;}
+.new_contents .operation_list li .listImage img{width: 100%;}
+.new_contents .ccm_backimg_list li{height: 116px;margin-top:20px;background: url(https://image.kebhana.com/cont/common/img/customer/ccm_list2.png) no-repeat 0 0;}
+.new_contents .ccm_backimg_list li + li{background: url(https://image.kebhana.com/cont/common/img/customer/ccm_list2.png) no-repeat 0 -135px;}
+.new_contents .ccm_backimg_list li + li + li{height: 116px;background: url(https://image.kebhana.com/cont/common/img/customer/ccm_list2.png) no-repeat 0 -270px;}
+
+/* 210413 접근성 관련 명도대비 수정 */
+.hana-body #header {border-top:3px solid #008485 !important;}
+.hana-body #lnb .tit {color:#008485; border-bottom:3px solid #008485;}
+.hana-body #lnb .lnb-cs-info h3 {color:#008485;}
+.hana-body #gnb .depth1 > li.on > a {color:#008485;}
+.hana-body #gnb .depth1 > li .depth2 > li > a:hover, #gnb .depth1 > li .depth2 > li > a:focus, #gnb .depth1 > li .depth2 > li > .depth3 > li > a:hover, #gnb .depth1 > li .depth2 > li > .depth3 > li > a:focus {color:#008485;}
+.hana-body #lnb .depth1 > li > a:hover, #lnb .depth1 > li > a:focus, #lnb .depth1 > li.on > a, #lnb .depth2 > li > a:hover, #lnb .depth2 > li > a:focus, #lnb .depth2 > li.on > a, #lnb .depth3 > li > a:hover, #lnb .depth3 > li > a:focus, #lnb .depth3 > li.on > a {color:#008485;}
+.product_n01 {background:#008485;}
+.product_t01 {border-left:3px solid #008485;}
+.hana-body .all-menu-list ul.depth1 li a:hover, .all-menu-list ul.depth1 li a:focus, .all-menu-list ul.depth1 li ul.depth2 li > a:hover, .all-menu-list ul.depth1 li ul.depth2 li > a:focus {color:#008485 !important;}
+.hana-body .btnDefault {border: 1px solid #008485;}
+.hana-body .btn-type.lightgreen {background-color:#57830a !important; border: 1px solid #57830a !important;}
+.hana-body .btn-type.lightgreen:hover, .hana-body .btn-type.lightgreen:focus {background-color:#4c700d !important;}
+.hana-body .nw_btn_more {color:#008485;}
+.hana-body .quick-link ul li a:hover, .quick-link ul li a:focus {background:#008485;}
+.hana-body .item.type1 i:before {background:#008485 !important;}
+.hana-body #util.h-util-wrap .mymenu-area .title:hover, #util.h-util-wrap .mymenu-area .title:focus {background:url(https://image.kebhana.com/cont/common/img/util/icon-lnb-mymenu.png) 50% 10px no-repeat #008485;}
+.hana-body .product-carousel .box1 .item1 a .product-desc .desc-detail strong {color:#008485;}
+.hana-body .product-carousel .box2 .item1 a .product-desc .desc-detail strong {color:#008485;} 
+.hana-body .product-carousel .item2 a .product-desc .desc-detail > strong {color:#008485;} 
+.hana-body .product-carousel .slick-dots li.slick-active a.slide-0 {color:#008485;}
+.hana-body .product-carousel .slick-dots li.slick-active a.slide-1 {color:#008485;}
+.hana-body .product-carousel .slick-dots li.slick-active a.slide-1:after {background:#008485;}
+.hana-body .product-carousel .box1 .item3 a {background:#008485;}
+.hana-body .product-carousel .box2 .item3 a {background:#008485;}
+.hana-body .productSearchDiv li a:hover, .productSearchDiv li.on a {color:#008485 !important;}
+.hana-body .banking .productSearchDiv li ul li.on a, .productSearchDiv li ul li:hover a, .productSearchDiv li ul li a:focus {background:#008485 url(https://image.kebhana.com/cont/common/img/common/bg_tab2.gif) 0 0 no-repeat !important;}
+.hana-body .banking-row-area .product-list .item.type1 .label-area .product-tit i {background:#008485;}
+.hana-body .banking-row-area .product-list .item.type2 .label-area .product-tit i {background:#008485;}
+.hana-body .banking-row-area .product-list .item.type1 .label-area .product-desc strong {color:#008485;}
+.hana-body .banking-row-area .product-list .item.type2 .label-area .product-desc strong {color:#008485;}
+.hana-body .banking-row-area .product-list .btn-block a.link-join {background-color:#008485;}
+.hana-body .banking-row-area .product-list .btn-block a.link-join:hover, .banking-row-area .product-list .btn-block a.link-join:focus {background-color:#047575;}
+.hana-body .banking-row-area .doc-result .pg-desc em {color:#008485;}
+#util.h-util-wrap .mybox-area .title:hover, #util.h-util-wrap .mybox-area .title:focus {color:#008485 !important;}
+#util.h-util-wrap .util-lists li a:hover, #util.h-util-wrap .util-lists li a:focus {color:#008485 !important;}
